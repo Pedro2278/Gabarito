@@ -6,3 +6,5 @@ Primeira questão = B
 Segunda questão = A
 
 Quarta questão = A
+
+Sexta questão = A
