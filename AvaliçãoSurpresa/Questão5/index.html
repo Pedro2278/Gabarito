@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Bônus Salarial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Bônus Salarial</h1>
+    <form id="formBonus">
+      <label for="salarioBase">Salário Base:</label>
+      <input type="number" id="salarioBase" required>
+      <label for="anosServico">Anos de Serviço:</label>
+      <input type="number" id="anosServico" required>
+      <label for="avaliacaoDesempenho">Avaliação de Desempenho:</label>
+      <input type="text" id="avaliacaoDesempenho" required>
+      <button type="submit">Calcular Bônus</button>
+    </form>
+    <div id="resultado">
+      <p id="bonus"></p>
+      <p id="novoSalario"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
